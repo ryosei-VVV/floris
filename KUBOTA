@@ -1,0 +1,4 @@
+from floris.tools import FlorisInterface
+fi = FlorisInterface("path/to/input.yaml")
+fi.reinitialize(wind_directions=[i for i in range(10)])
+fi.calculate_wake()
